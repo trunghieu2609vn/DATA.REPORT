@@ -7,14 +7,27 @@ using System.Threading.Tasks;
 
 namespace DATA.REPORT.Core.DL
 {
-    public class SqlDataAccess : BaseDL
+    public class SqlDataAccess
     {
-        public SqlDataAccess(IConfigUtil configUtil) : base(configUtil)
+        #region Declare
+
+        private string ConnectionString { get; set; }
+
+        #endregion
+
+        #region Constructor
+
+        public SqlDataAccess(string connectionString)
         {
+            this.ConnectionString = connectionString;
         }
 
-        public SqlDataAccess(string connectionString) : base(connectionString)
-        {
-        }
+        #endregion
+
+        #region Method
+
+
+
+        #endregion
     }
 }
