@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.20" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DATA.REPORT.BL\DATA.REPORT.Core.BL.csproj" />
     <ProjectReference Include="..\DATA.REPORT.Library\DATA.REPORT.Library.csproj" />
     <ProjectReference Include="..\DATA.REPORT.Model\DATA.REPORT.Model.csproj" />
