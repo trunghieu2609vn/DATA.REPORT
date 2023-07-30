@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DATA.REPORT.Core.DL\DATA.REPORT.Core.DL.csproj" />
+    <ProjectReference Include="..\DATA.REPORT.Core.Stimulsoft\DATA.REPORT.Core.Stimulsoft.csproj" />
+    <ProjectReference Include="..\DATA.REPORT.Library\DATA.REPORT.Library.csproj" />
+    <ProjectReference Include="..\DATA.REPORT.Model\DATA.REPORT.Model.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DATA.REPORT.BL\DATA.REPORT.Core.BL.csproj" />
+    <ProjectReference Include="..\DATA.REPORT.Library\DATA.REPORT.Library.csproj" />
+    <ProjectReference Include="..\DATA.REPORT.Model\DATA.REPORT.Model.csproj" />
+  </ItemGroup>
+
+</Project>
